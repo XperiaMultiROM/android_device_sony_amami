@@ -54,4 +54,3 @@ MR_FSTAB := device/sony/rhine-common/rootdir/twrp.fstab
 MR_KEXEC_MEM_MIN := 0x20000000
 MR_KEXEC_DTB := true
 MR_CONTINUOUS_FB_UPDATE := true
-MR_PRODUCT_DEVICE := amami
