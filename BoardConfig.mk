@@ -41,6 +41,7 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
 #twrp
 DEVICE_RESOLUTION := 720x1280
+TW_NO_SCREEN_BLANK := true
 
 #MultiROM config. MultiROM also uses parts of TWRP config
 MR_INPUT_TYPE := type_b
@@ -51,3 +52,5 @@ MR_FSTAB := device/sony/rhine-common/rootdir/twrp.fstab
 MR_KEXEC_MEM_MIN := 0x20000000
 MR_KEXEC_DTB := true
 MR_CONTINUOUS_FB_UPDATE := true
+MR_USE_MROM_FSTAB := true
+MR_DEFAULT_BRIGHTNESS := 2000
